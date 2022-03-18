@@ -1,0 +1,41 @@
+2022-03-18T06:52:48+00:00 CRITICAL syntax error, unexpected double-quoted string ">" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\index.php on line 5
+
+2022-03-18T06:52:48+00:00 CRITICAL syntax error, unexpected double-quoted string ">" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\index.php on line 5
+
+2022-03-18T06:52:48+00:00 CRITICAL syntax error, unexpected double-quoted string ">" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\index.php on line 5
+
+2022-03-18T06:52:52+00:00 CRITICAL syntax error, unexpected double-quoted string ">" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\index.php on line 5
+
+2022-03-18T06:53:11+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\index.php on line 4
+
+2022-03-18T06:55:07+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\index.php on line 4
+
+2022-03-18T06:55:19+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\index.php on line 4
+
+2022-03-18T09:42:14+00:00 CRITICAL syntax error, unexpected token ":", expecting "(" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 14
+
+2022-03-18T09:52:16+00:00 CRITICAL syntax error, unexpected token ";", expecting ":" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 14
+
+2022-03-18T09:58:31+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 15
+
+2022-03-18T10:00:41+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 15
+
+2022-03-18T10:01:08+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 15
+
+2022-03-18T10:01:08+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 15
+
+2022-03-18T10:03:06+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 15
+
+2022-03-18T10:04:21+00:00 CRITICAL syntax error, unexpected token ";" in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 15
+
+2022-03-18T10:52:58+00:00 CRITICAL Unclosed '{' on line 19 in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\footer.php on line 58
+
+2022-03-18T12:44:15+00:00 CRITICAL Uncaught ArgumentCountError: substr() expects at least 2 arguments, 1 given in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\about-template.php:29
+Stack trace:
+#0 F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\about-template.php(29): substr(true)
+#1 F:\xampp\htdocs\w3helpers\wp-includes\template-loader.php(106): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\w3helpers\wp-blog-header.php(19): require_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\w3helpers\index.php(17): require('F:\\xampp\\htdocs...')
+#4 {main}
+  thrown in F:\xampp\htdocs\w3helpers\wp-content\themes\pixie\about-template.php on line 29
+

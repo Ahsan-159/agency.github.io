@@ -1,0 +1,46 @@
+2022-03-17T10:48:14+00:00 CRITICAL Uncaught Error: Failed opening required 'F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\vendor/jetpack-autoloader/class-autoloader.php' (include_path='F:\xampp\htdocs\w3helpers\wp-content\plugins\kirki/;F:\xampp\htdocs\w3helpers\wp-content\plugins\kirki/core;F:\xampp\php\PEAR') in F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\vendor\autoload_packages.php:12
+Stack trace:
+#0 F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\src\Autoloader.php(37): require()
+#1 F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\google-listings-and-ads.php(36): Automattic\WooCommerce\GoogleListingsAndAds\Autoloader::init()
+#2 F:\xampp\htdocs\w3helpers\wp-admin\includes\plugin.php(2288): include_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\w3helpers\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('google-listings...')
+#4 F:\xampp\htdocs\w3helpers\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(421): activate_plugin('google-listings...')
+#5 F:\xampp\htdocs\w3helpers\wp-includes\rest-api\class-wp-rest-server.php(1141): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#6 F:\xampp\htdocs\w3helpers\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/plugi...', Array, NULL)
+#7 F:\xampp\htdocs\w3helpers\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 F:\xampp\htdocs\w3helpers\wp-includes\rest-api.php(386): WP_REST_Server->serve_request('/wc-admin/plugi...')
+#9 F:\xampp\htdocs\w3helpers\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#10 F:\xampp\htdocs\w3helpers\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#11 F:\xampp\htdocs\w3helpers\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#12 F:\xampp\htdocs\w3helpers\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#13 F:\xampp\htdocs\w3helpers\wp-includes\class-wp.php(758): WP->parse_request('')
+#14 F:\xampp\htdocs\w3helpers\wp-includes\functions.php(1310): WP->main('')
+#15 F:\xampp\htdocs\w3helpers\wp-blog-header.php(16): wp()
+#16 F:\xampp\htdocs\w3helpers\index.php(17): require('F:\\xampp\\htdocs...')
+#17 {main}
+  thrown in F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\vendor\autoload_packages.php on line 12
+
+2022-03-17T10:50:06+00:00 CRITICAL Uncaught Error: Failed opening required 'F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\vendor/jetpack-autoloader/class-autoloader.php' (include_path='F:\xampp\htdocs\w3helpers\wp-content\plugins\kirki/;F:\xampp\htdocs\w3helpers\wp-content\plugins\kirki/core;F:\xampp\php\PEAR') in F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\vendor\autoload_packages.php:12
+Stack trace:
+#0 F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\src\Autoloader.php(37): require()
+#1 F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\google-listings-and-ads.php(36): Automattic\WooCommerce\GoogleListingsAndAds\Autoloader::init()
+#2 F:\xampp\htdocs\w3helpers\wp-admin\includes\plugin.php(2288): include_once('F:\\xampp\\htdocs...')
+#3 F:\xampp\htdocs\w3helpers\wp-admin\includes\plugin.php(659): plugin_sandbox_scrape('google-listings...')
+#4 F:\xampp\htdocs\w3helpers\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\API\Plugins.php(421): activate_plugin('google-listings...')
+#5 F:\xampp\htdocs\w3helpers\wp-includes\rest-api\class-wp-rest-server.php(1141): Automattic\WooCommerce\Admin\API\Plugins->activate_plugins(Object(WP_REST_Request))
+#6 F:\xampp\htdocs\w3helpers\wp-includes\rest-api\class-wp-rest-server.php(988): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wc-admin/plugi...', Array, NULL)
+#7 F:\xampp\htdocs\w3helpers\wp-includes\rest-api\class-wp-rest-server.php(414): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 F:\xampp\htdocs\w3helpers\wp-includes\rest-api.php(386): WP_REST_Server->serve_request('/wc-admin/plugi...')
+#9 F:\xampp\htdocs\w3helpers\wp-includes\class-wp-hook.php(307): rest_api_loaded(Object(WP))
+#10 F:\xampp\htdocs\w3helpers\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#11 F:\xampp\htdocs\w3helpers\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#12 F:\xampp\htdocs\w3helpers\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#13 F:\xampp\htdocs\w3helpers\wp-includes\class-wp.php(758): WP->parse_request('')
+#14 F:\xampp\htdocs\w3helpers\wp-includes\functions.php(1310): WP->main('')
+#15 F:\xampp\htdocs\w3helpers\wp-blog-header.php(16): wp()
+#16 F:\xampp\htdocs\w3helpers\index.php(17): require('F:\\xampp\\htdocs...')
+#17 {main}
+  thrown in F:\xampp\htdocs\w3helpers\wp-content\plugins\google-listings-and-ads\vendor\autoload_packages.php on line 12
+
+2022-03-17T17:06:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\w3helpers\wp-content\plugins\mailpoet\vendor-prefixed\doctrine\dbal\lib\Doctrine\DBAL\Driver\PDOStatement.php on line 59
+
